@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    height: 100vh; 
+    background-color: rgb(226, 241, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+  }
+  .contact-form h2{
+    margin-bottom: 2rem;
+  }
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 80vh;
+    width: 35%;
+    border-radius: 1.5rem;
+    padding: 2.5em;
+
+  }
+  .personal-info{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .first-container{
+    display: flex;
+    flex-direction: row;
+  }
